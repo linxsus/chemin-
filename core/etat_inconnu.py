@@ -5,10 +5,10 @@ Utilisé comme état de sortie de chemins dont le résultat est imprévisible.
 """
 
 from typing import List, Union, TYPE_CHECKING
-from .etat import Etat
+from core.etat import Etat
 
 if TYPE_CHECKING:
-    from .etat import Etat
+    from core.etat import Etat
 
 
 class EtatInconnu(Etat):

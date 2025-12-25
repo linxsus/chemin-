@@ -16,16 +16,16 @@ try:
 except ImportError:
     import tomli as tomllib
 
-from .etat import Etat, SingletonMeta
-from .etat_inconnu import EtatInconnu
-from .chemin import Chemin
-from .exceptions import (
+from core.etat import Etat, SingletonMeta
+from core.etat_inconnu import EtatInconnu
+from core.chemin import Chemin
+from core.exceptions import (
     ErreurConfiguration,
     ErreurValidation,
     EtatInconnuException,
     AucunEtatTrouve
 )
-from ..utils.logger import get_module_logger
+from utils.logger import get_module_logger
 
 
 class GestionnaireEtats:
