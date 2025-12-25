@@ -1,0 +1,4 @@
+# Dépendances pour le système de gestion d'états et chemins
+
+# Pour Python < 3.11, utiliser tomli pour parser les fichiers TOML
+tomli>=2.0.0; python_version < "3.11"
