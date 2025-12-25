@@ -8,8 +8,8 @@ from typing import List, Union, Callable, Any, Optional, TYPE_CHECKING
 from abc import abstractmethod
 
 if TYPE_CHECKING:
-    from .etat import Etat
-    from .etat_inconnu import EtatInconnu
+    from core.etat import Etat
+    from core.etat_inconnu import EtatInconnu
 
 
 class Chemin:
@@ -69,8 +69,8 @@ class Chemin:
             True si la sortie est certaine (une seule instance d'Etat),
             False sinon (null, liste ou EtatInconnu)
         """
-        from .etat import Etat
-        from .etat_inconnu import EtatInconnu
+        from core.etat import Etat
+        from core.etat_inconnu import EtatInconnu
 
         if self.etat_sortie is None:
             return False
