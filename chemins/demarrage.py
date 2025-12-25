@@ -7,7 +7,7 @@ où on va atterrir après le lancement de l'application.
 
 from typing import List
 from core.chemin import Chemin
-from .actions import LancerApplication, Attendre, Action
+from chemins.actions import LancerApplication, Attendre, Action
 
 
 class CheminDemarrage(Chemin):

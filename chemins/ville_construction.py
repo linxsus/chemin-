@@ -4,7 +4,7 @@ Chemin de la ville vers la construction de bâtiment.
 
 from typing import List
 from core.chemin import Chemin
-from .actions import CliquerBouton, Attendre, Action
+from chemins.actions import CliquerBouton, Attendre, Action
 
 
 class CheminVilleConstruction(Chemin):
